@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dropdown-menu {
+    background-color: #7C4241; /* Mudando o fundo do dropdown para verde */
+}
+.navbar {
+    background-color: #7C4241; /* Mudando o fundo do cabeçalho para roxo */
+}
+.btn.dropdown-toggle {
+    background-color: #FE8282; /* Mudando a cor de fundo do botão dropdown para #FE8282 */
+}
+.segunda{
+    background-color: #FE8282;
+}
+body{
+    background-color: #FDF7F7;
+}
+.quadrado {
+    width: 680px;
+    height: 360px;
+    background-color: #FE8282;
+    margin: auto; /* Centraliza horizontalmente */
+    position: absolute; /* Necessário para centralizar verticalmente */
+    top: 0; bottom: 0; left: 0; right: 0; /* Centraliza verticalmente */
+}
+
+.circulo {
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.circulo1 {
+    left: 50px; /* Posição do primeiro círculo */
+}
+
+.circulo2 {
+    left: 250px; /* Posição do segundo círculo (50px do primeiro círculo + 100px de espaçamento) */
+}
+
+.circulo3 {
+    left: 450px; /* Posição do terceiro círculo (50px do segundo círculo + 100px de espaçamento) */
+}
+
