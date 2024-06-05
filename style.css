@@ -48,3 +48,73 @@ body{
     left: 450px; /* Posição do terceiro círculo (50px do segundo círculo + 100px de espaçamento) */
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FDF7F7;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7C4241;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #FE8282;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    height: 2px;
+    background: white;
+    margin: 4px;
+    width: 25px;
+}
+.custom-bg {
+    background-color: #7C4241; /* Altere para a cor que desejar */
+  }
+  .navbar-toggler {
+    border-color: white; /* Altere para a cor desejada */
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    /* Altere 'white' para a cor desejada */
+  }
+  .carousel-inner img {
+    height: 100%; /* Defina a altura desejada */
+    object-fit: cover; /* Faz com que a imagem se ajuste ao tamanho definido */
+}
+.carousel {
+    max-width: 800px; /* Defina a largura máxima desejada */
+    margin: auto; /* Centraliza o carrossel na página */
+}
