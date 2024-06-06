@@ -8,169 +8,158 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <nav class="navbar custom-bg fixed-top shadow">
+    <nav class="navbar navbar-expand-lg custom-bg fixed-top shadow">
         <div class="container-fluid">
-          <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand text-white" href="">Camisas</a>
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <a class="navbar-brand" href="#">
+                <img src="/logo.png" alt="Isana Variedades" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Camisas/index.html">Camisas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Moletom/index.html">Moletom</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Rommanel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Natura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Avon</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Camisas</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Mais
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Ação</a></li>
-                    <li><a class="dropdown-item" href="#">Outra ação</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                <button class="btn btn-outline-light" type="submit">Buscar</button>
-              </form>
-            </div>
-          </div>
         </div>
-      </nav>
-      
-      <div class="container mt-5 pt-5">
-        <div class="row">
-            <div class="col-md-4 mb-4">
+    </nav>
+    <br><br><br>
+
+    <div class="container mt-5 pt-5">
+        <h2 class="text-center mb-4">Nossas Camisas</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="bege" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/azul-claro" class="card-img-top" alt="Camisa Bege">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Camisa Bege</h5>
                         <p class="card-text">Descrição rápida sobre a camisa bege.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="branca" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/bege" class="card-img-top" alt="Camisa Branca">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Camisa Branca</h5>
                         <p class="card-text">Descrição rápida sobre a camisa branca.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="laranja" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/branca" class="card-img-top" alt="Camisa Laranja">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Camisa Laranja</h5>
                         <p class="card-text">Descrição rápida sobre a camisa laranja.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 mb-4">
+        <div class="row g-4 mt-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="lilas" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/laranja" class="card-img-top" alt="Camisa Lilás">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Camisa Lilás</h5>
                         <p class="card-text">Descrição rápida sobre a camisa lilás.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="marinho" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/lilas" class="card-img-top" alt="Camisa Marinho">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Camisa Marinho</h5>
                         <p class="card-text">Descrição rápida sobre a camisa marinho.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="marrom" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/marinho" class="card-img-top" alt="Camisa Marrom">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Camisa Marrom</h5>
                         <p class="card-text">Descrição rápida sobre a camisa marrom.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="preta" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/marrom" class="card-img-top" alt="Camisa Preta">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Camisa Preta</h5>
                         <p class="card-text">Descrição rápida sobre a camisa preta.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="roxo" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/militar" class="card-img-top" alt="Camisa Roxa">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Camisa Roxa</h5>
                         <p class="card-text">Descrição rápida sobre a camisa roxa.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="militar" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/preta" class="card-img-top" alt="Camisa Militar">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Camisa Militar</h5>
                         <p class="card-text">Descrição rápida sobre a camisa militar.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="azul-claro" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/roxo" class="card-img-top" alt="Camisa Azul Claro">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Camisa Azul Claro</h5>
                         <p class="card-text">Descrição rápida sobre a camisa azul claro.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="Moletom/Moletom Azul claro.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="/Camisas/img/verdemilitar" class="card-img-top" alt="Moletom Azul Claro">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Moletom Azul Claro</h5>
                         <p class="card-text">Descrição rápida sobre o moletom azul claro.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="Moletom/Moletom Azul claro.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Moletom Azul Claro</h5>
-                        <p class="card-text">Descrição rápida sobre o moletom azul claro.</p>
-                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos disponíveis</a>
+                        <a href="https://wa.me/5583998875239" class="btn btn-primary">Consultar tamanhos</a>
                     </div>
                 </div>
             </div>
@@ -188,7 +177,7 @@
 
             <div class="contact-info mt-4">
                 <p>Entre em contato:</p>
-                <p>Email:isanamaia72@gmail.com</p>
+                <p>Email: isanamaia72@gmail.com</p>
                 <p>Telefone: +55 (83) 99815-4534</p>
                 <p>Endereço: Av. Duarte Lima, 756 - Serraria, Paraiba</p>
             </div>

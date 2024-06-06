@@ -18,6 +18,9 @@ body {
   border-color: white;
 }
 
+.navbar {
+  padding: -0.2px;
+}
 
 .navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -72,6 +75,12 @@ body {
   transform: scale(1.05);
 }
 
+h2 {
+  color: #7C4241;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
 footer {
   background-color: #7C4241;
   color: white;
@@ -85,4 +94,16 @@ footer .social-icons a {
 
 footer .social-icons a:hover {
   color: #FE8282;
+}
+
+.contact-info {
+  margin-top: 2rem;
+}
+
+.map iframe {
+  width: 100%;
+  border: none;
+}
+.custom-bg {
+  background: linear-gradient(to right, #7C4241, #FE8282);
 }
