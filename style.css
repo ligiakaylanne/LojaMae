@@ -14,8 +14,6 @@
 
 .nav-link {
     transition: color 0.3s ease, background-color 0.3s ease;
-   
-    
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -25,8 +23,13 @@
 
 /* Estilos relacionados ao corpo do documento */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #FDF7F7;
+    color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
 }
 
 /* Outros estilos */
