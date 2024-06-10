@@ -100,3 +100,8 @@ footer .social-icons a:hover {
     width: 100%;
     border: none;
 }
+.accordion-body {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
