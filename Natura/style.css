@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FDF7F7;
+  }
+  
+  .custom-bg {
+    background-color: #7C4241;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-toggler {
+    border-color: white;
+  }
+  
+  .navbar {
+    padding: -0.2px;
+  }
+  
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .nav-link {
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .nav-link:hover, .nav-link:focus {
+    color: #FDF7F7;
+    background-color: #FE8282;
+  }
+  
+  .offcanvas {
+    background-color: #FDF7F7;
+  }
+  
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .btn-primary {
+    background-color: #7C4241;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5e2f30;
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    color: #7C4241;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  footer {
+    background-color: #7C4241;
+    color: white;
+    padding: 2rem 0;
+  }
+  
+  footer .social-icons a {
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-icons a:hover {
+    color: #FE8282;
+  }
+  
+  .contact-info {
+    margin-top: 2rem;
+  }
+  
+  .map iframe {
+    width: 100%;
+    border: none;
+  }
+  .custom-bg {
+    background: linear-gradient(to right, #7C4241, #FE8282);
+  }
